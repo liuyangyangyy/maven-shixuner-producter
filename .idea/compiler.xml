@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="maven-ly-mapper" />
+        <module name="maven-ly-model" />
+        <module name="maven-ly-service" />
+        <module name="maven-ly-utils" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="maven-ly-mapper" target="1.5" />
+      <module name="maven-ly-model" target="1.5" />
+      <module name="maven-ly-service" target="1.5" />
+      <module name="maven-ly-utils" target="1.5" />
+      <module name="maven-shixuner-producter" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
